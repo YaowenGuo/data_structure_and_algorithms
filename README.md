@@ -71,6 +71,18 @@ Accidentally I've stumbled upon the following quote by Linus Torvalds:
 
 ## 算法
 
+算法是对特定问题的求解步骤一种描述。它具有如下特性
+
+- 又穷性：步骤又穷，时间有穷
+- 确定性：无歧义，在任何条件下，只有唯一的一条执行路径。
+- 可行性：算法中描述的操作都可以使用现有的运算来实现
+- 输入： 零个或多个输入
+- 输出：一个或多个输出
+
+
+
+算法分类
+
 - 穷举法(百钱买百鸡) —— 万能，低效
   避免穷举测试
 - 回溯（迷宫，八皇后），搜索（DFS，BFS）
@@ -89,3 +101,13 @@ Accidentally I've stumbled upon the following quote by Linus Torvalds:
 - 贪心算法（Huffman 最短编码，Dijkstra 最短路径）—— 动态规划的特例
  最优子结构——最优解
  否则，只是快速得到较优解
+
+### 算法设计的要求
+
+- 正确性
+- 可读性
+- 健壮性
+- 效率与低存储量需求
+
+### 算法效率和空间度量
+
