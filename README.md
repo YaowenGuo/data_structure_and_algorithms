@@ -109,7 +109,7 @@ Accidentally I've stumbled upon the following quote by Linus Torvalds:
 
 算法是对特定问题的求解步骤一种描述。它具有如下特性
 
-- 又穷性：步骤又穷，时间有穷
+- 有穷性：步骤有穷，时间有穷
 - 确定性：无歧义，在任何条件下，只有唯一的一条执行路径。
 - 可行性：算法中描述的操作都可以使用现有的运算来实现
 - 输入： 零个或多个输入
@@ -121,7 +121,7 @@ Accidentally I've stumbled upon the following quote by Linus Torvalds:
 
 - 穷举法(百钱买百鸡) —— 万能，低效
   避免穷举测试
-- 回溯（迷宫，八皇后），搜索（DFS，BFS）
+- 回溯（backtracking algorithm 迷宫，八皇后），搜索（DFS，BFS）
  —— 跳过无解分支
  最优化问题的通法
 - 递归分治（二分检索，快速排序，分治排序）
